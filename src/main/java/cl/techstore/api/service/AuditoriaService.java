@@ -1,7 +1,5 @@
 package cl.techstore.api.service;
 
-import com.fasterxml.jackson.databind.ObjectMapper;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.scheduling.annotation.Async;
 import org.springframework.stereotype.Service;
@@ -14,7 +12,7 @@ import java.time.Instant;
 import java.util.HashMap;
 import java.util.Map;
 
-import tools.jackson.databind.ObjectMapper;
+import com.fasterxml.jackson.databind.ObjectMapper;  // ✅ CORRECTO
 
 @Service
 public class AuditoriaService {
